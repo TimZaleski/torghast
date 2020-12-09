@@ -1,0 +1,74 @@
+.bg-window{
+  display: flex;
+  width: 100vw;
+}
+
+.bg-main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1500px;
+  min-height: 800px;
+  background-color: gray;
+  position: relative;
+}
+
+.center-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.monster-images{
+  position: absolute;
+  display: flex;
+  width: 906px;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  transform: translate(-50%, -50%); 
+}
+
+.responsive
+{
+  width: auto;
+  max-width: 960px;
+}
+
+.bordering{
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+}
+
+.transp
+{
+  background-color: transparent;
+}
+
+.card{
+  border: none;
+}
+
+.monster-name
+{
+  color: red;
+}
+
+.enemyHealthBar
+{
+  border-color: rgb(136, 0, 0);
+  border-style: solid;
+  border-width: 2px;
+  height:20px;
+}
+
+.enemyHealthPercent
+{
+  margin: 0px;
+  background-color: red;
+  height: 16px;
+  /* width: % for health*/
+
+}
